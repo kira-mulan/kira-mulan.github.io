@@ -12,15 +12,15 @@ body {
   
   /** Header styles **/
   .header {
-    background-image: url(https://lh3.googleusercontent.com/KsLJkysuJsi0nIHdAYZaoImTfQSg7TJ5eNjZwfvARrw44-wVuSAIdPnR7cxPHnrjj65YEUD6eShFYExOQ_SbXxPwO18zaQ6v6xX3FjN-uavq5VFLMOq8GDJw_0WPqf1lsvCjjiixM7VLLjhVNaGcFjL6a2WebHWUl9UQL_wlxUkMWD-_zGUX-6lUJrRAJqdeABlSm_xcS6ekH0v0YKsRsuS6on4EKqYykJPl0lt0EEpmtLJC96VfwRqQM3gFi_hDhThYOs69RqKnM0cKkyC7TrC0Hxnwc4eFJX4cKC6u3rSwLEXKzX0z09EWpBpeaCOVhQzgsAy1i-zL5fjIPa_3_nU2eEJnRNYHSVzzn42MyXjQ3litCrMyQ-QC-pnwLCq3YqbzSDTbteJ9rNeuFN699KAmeLAifDGIILCjvI47lEM33SF2xnPHbaZM8CMmF1xJT57j1o28mBChQEmnWFh0h4n2IJ7YmPsNWy4Pd9rMGdHfKcMOnAICMZw8bOOInvy-wZMAjZPgI1HmjwhOo_YV8J-4tDuUlvdDd-6MfYRvMBfP6BxSKGfIrI2YBHdQzPrRPiG36hdsrlNYML4y-uGITQwMLNS6VlY5WM2iKtUrfg=w834-h657-no);
+    background-image: url(https://lh3.googleusercontent.com/-6KSmfbGJ0qMPYonKW66IjJTDzy8nKiWMO6zk93XA38Xele633naSSz2Rrgh5uXFd8vNEufb7cfG1a92YDq_kYipvF5V2U3weYTVac5gJVijLOefTGnvX6mBWw7XzHIqEVXwvlwntYdV8457Vzds2eBdD8N_3BvdvW5E9jWF_AhXgArP58lN5IdNEvv6omYtPBBrmpxxfwNLyjGlpAtbqov1D4KB9_bYkpyyDfZ8AiEny2fuJpyRB6fD9HMot0kiM3wKLfuOwHYHTMuB2Ki1BLyOuTMwtB27w2gCd7kBqqTf8J4kRISSwiRLTg1dOghgGuU4RbuFsWdblAO3x6TIetMIm2pqdEjNMaGbwiXz57zY4QNIgy4BXgFRGyHZOAgKnQ1SNwi9mctO-gITPdrZ1ilOl1comlNPjRwJcor6wswvg-PpehA5ReD1w2sHjVpau9Ui9U-SSZmpsNAd0CCMf0KFP-S2ifUfPZp8Tp9buwm-CQ7Cwov520dFjUIjj8dvn4M4p5XqcQ12-XJuo74xSa9pkA3mCt13Sl-7zWZrMTl_sHPILUrH2TXO39xQoqqIHRRPp62KQUVUwUFhUAVD5h--DRx75NcOtiX9P03HSw=w1119-h588-no);
     height: 500px;
-    background-position: center center;
+    background-position: center;
   }
   
   .roasting {
     margin: 40px auto;
     padding: 20px 30px 40px 30px;
-    background-color: rgb(70, 60, 55);
+    background-color: rgb(236, 20, 20);
     overflow: auto;
     width: 75%;
     border-radius: 4px;
@@ -28,7 +28,7 @@ body {
   }
   
   .roasting p {
-    color: rgb(56, 52, 48);
+    color: rgb(224, 22, 22);
     text-align: center;
     line-height: 24px;
     font-family: 'Pacifico Shadows Into Light', sans-serif;
@@ -39,7 +39,7 @@ body {
   .spectrum div {
     font: inherit;
     padding: 0 20px;
-    color: rgb(31, 27, 27);
+    color: rgb(0, 0, 0);
     overflow: auto;
     opacity: 0.9;
   }
@@ -51,15 +51,15 @@ body {
   
   /* Roast types */
   .green {
-    background-color: rgba(111, 228, 98, 0.925);
+    background-color: rgba(226, 109, 109, 0.925);
   }
   
   .light {
-    background-color: rgba(230, 84, 128, 0.849);
+    background-color: rgba(253, 251, 103, 0.849);
   }
   
   .city {
-    background-color: rgb(50, 159, 173);
+    background-color: rgb(45, 143, 255);
   }
   
   .vienna {
@@ -72,45 +72,44 @@ body {
   
   /* Typography */
   h1 {
-    color: #3b2f31;
-    font-family: 'Pacifico|Shadows Into Light', sans-serif;
-    font-size: 75px;
-    line-height: 1px;
-    margin: 0;
+    color: #a39c39;
+    line-height: 100px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 80px;
     position: relative;
-    text-align: right;
-    top: 60%;
+    text-align: center;
+    top: 75%;
   }
   
   h2 {
-    color: #E4BB97;
+    color: rgb(31, 23, 15);
     font-family: 'Pacifico|Shadows+Into+Light', sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 500;
     text-align: left;
     text-transform: uppercase;
   }
   
   h3 {
-    color: #41292C;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    font-weight: 600;
     text-align: center;
   }
   
   h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 500;
     line-height: .2em;
   }
   
   h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
     line-height: .2em;
-    font-weight: 300;
+    font-weight: 500;
   }
   
   /* Page elements */
@@ -128,9 +127,9 @@ body {
   }
   
   p {
-    color: #ad9090e3;
+    color: #a56743e7;
     line-height: 32px;
-    font-family: 'Pacifico|Shadows+Into+Light', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 20px;
     font-weight: 100;
   }
